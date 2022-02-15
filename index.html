@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Metflix | A Dummy Movie Streaming Service</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO TAGS -->
+    <meta
+      name="description"
+      content="Metflix is a dummy movie and music streaming site which is a project work for students of Interactive Media Design at Seneca College, Toronto, CA."
+    />
+    <meta
+      property="og:title"
+      content="Metflix, Inc.| A Dummy Movie Streaming Site"
+    />
+    <meta
+      property="og:description"
+      content="Metflix is a dummy movie and music streaming site which is a project work for students of Interactive Media Design at Seneca College, Toronto, CA."
+    />
+    <meta property="og:image" content="/" />
+    <meta property="og:url" content="https://example.com" />
+    <meta property="og:site_name" content="Metflix, Inc." />
+    <link rel="canonical" href="http://example.com/" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" href="./assets/img/M.png" />
+    <!-- RESET CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CUSTOM FONTS FROM GOOGLE FONTS -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600;800&display=swap"
+      rel="stylesheet"
+    /> -->
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- CUSTOM JS -->
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <!-- <header> -->
+    <nav id="navbar">
+      <img
+        id="navbar__logo"
+        src="./assets/img/METFLIX-logo.png"
+        alt="metflix-logo"
+        height="auto"
+        width="150px"
+      />
+      <div id="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+      <ul id="navbar__links">
+        <li class="navbar__link"><a href="#heroImage">Home</a></li>
+        <li class="navbar__link">
+          <a href="#mostPopular__parent">Most Popular</a>
+        </li>
+        <li class="navbar__link">
+          <a href="#categories__parent">Categories</a>
+        </li>
+        <li class="navbar__link"><a href="#footer">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="heroImage">
+      <h2>Eternals</h2>
+      <p>
+        The saga of the Eternals, a race of immortal beings who lived on Earth
+        and shaped its history and civilizations.<br />
+        <button>Watch Now</button>
+      </p>
+    </section>
+    <!-- </header> -->
+    <main id="mainContent">
+      <section id="mostPopular__parent">
+        <h1 class="headings"><span>Most</span> Popular</h1>
+        <div id="mostPopular__divs">
+          <div class="mostPopular__div">
+            <h2>F.R.I.E.N.D.S</h2>
+            <p>
+              This hit sitcom follows the merry misadventures of six
+              20-something pals as they...
+            </p>
+          </div>
+          <div class="mostPopular__div">
+            <h2>Mom</h2>
+            <p>
+              After her stepdaughter is sexually assaulted at a party, a furious
+              mother...
+            </p>
+          </div>
+          <div class="mostPopular__div">
+            <h2>Brooklyn Nine-Nine</h2>
+            <p>
+              Ray Holt, an eccentric commanding officer, and his diverse and
+              quirky team of...
+            </p>
+          </div>
+          <div class="mostPopular__div">
+            <h2>Young Sheldon</h2>
+            <p>
+              Sheldon Cooper, a bona fide genius, has been promoted four grades.
+              Meanwhile...
+            </p>
+          </div>
+          <div class="mostPopular__div">
+            <h2>Silicon Valley</h2>
+            <p>
+              Richard, a programmer, creates an app called the Pied Piper and
+              tries to get investors for it...
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="categories__parent">
+        <h1 class="headings">Categories</h1>
+        <div id="categories__divs">
+          <div class="categories__div">
+            <h2>Anime</h2>
+            <p>
+              From Action-packed adventures to offbeat comedies &mdash; We've
+              got them all covered!
+            </p>
+          </div>
+          <div class="categories__div">
+            <h2>Classic</h2>
+            <p>Some films are so great they belong to the ages.</p>
+          </div>
+          <div class="categories__div">
+            <h2>Comedies</h2>
+            <p>
+              We’ve got all the best movies that will tickle your funny bone.
+            </p>
+          </div>
+          <div class="categories__div">
+            <h2>Romantic</h2>
+            <p>Can you feel the love tonight? You better believe it.</p>
+          </div>
+          <div class="categories__div">
+            <h2>Sci-fi & Fantasy</h2>
+            <p>
+              Experience the best sci-fi films that Hollywood have to offer.
+            </p>
+          </div>
+          <div class="categories__div">
+            <h2>Documentary</h2>
+            <p>
+              The truth hurts. But sometimes it’s inspirational, scary, sad,
+              funny or anywhere in between.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <section id="footer__siteInfoParent">
+        <div id="footer__siteInfo">
+          <img
+            id="footer__logo"
+            src="./assets/img/METFLIX-logo.png"
+            alt="metflix-logo"
+          />
+          <p>
+            <a id="siteName" href="#">metflix.com</a>
+          </p>
+          <p>Support: <a id="siteEmail" href="#">support@metflix.com</a></p>
+          <address id="footer__address">
+            200, Manchester Square,<br />Los Gatos, California, United States.
+          </address>
+        </div>
+        <div id="footer__miscInfo">
+          <a href="#heroImage" id="backToTop">Back to top</a>
+          <p>&copy; 2010 - 2022 | <span>Metflix</span>, Inc.</p>
+        </div>
+      </section>
+      <section id="footer__formParent">
+        <form method="POST" action="/">
+          <fieldset id="footer__form">
+            <legend align="center" id="formHeading">
+              Contact <span>us</span>
+            </legend>
+            <div id="nameEmailInp">
+              <div>
+                <label for="name"
+                  >Your Name<sup> * </sup
+                  ><span id="nameError" class="errorMsg"
+                    >Please fill out this field!</span
+                  ></label
+                >
+                <input
+                  id="name"
+                  class="inputs"
+                  type="text"
+                  placeholder="Leed Hastings"
+                  required
+                />
+              </div>
+              <div>
+                <label for="email"
+                  >Your Email<sup> * </sup
+                  ><span id="mailError" class="errorMsg"
+                    >Please fill out this field!</span
+                  ></label
+                >
+                <input
+                  id="email"
+                  class="inputs"
+                  type="email"
+                  placeholder="leed@xyz.com"
+                  required
+                />
+              </div>
+            </div>
+            <div id="textSubmitInp">
+              <label for="textarea"
+                >Your Message<sup> * </sup
+                ><span id="msgError" class="errorMsg"
+                  >Please fill out this field!</span
+                ></label
+              >
+              <textarea
+                id="textarea"
+                class="inputs"
+                cols="30"
+                rows="5"
+                placeholder="Your message goes here..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" id="formSubmitBtn">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+    </footer>
+  </body>
+</html>
